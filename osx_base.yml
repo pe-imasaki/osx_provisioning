@@ -7,44 +7,55 @@
     HOMEBREW_CASK_OPTS: "--appdir=/Applications"
   vars:
     homebrew_taps:
-      - sanemat/font
-      - caskroom/cask
+      - m3y/drw
+      - tldr-pages/tldr
     homebrew_packages:
-      - colordiff
+      - ansible
+      - bash
       - ctags
+      - curl
+      - drw
       - exa
-      - figlet
-      - fontforge
       - fzf
       - ghq
       - git
       - gnu-sed
       - go
+      - gradle
+      - graphviz
       - httpie
       - hub
       - jq
-      - lolcat
+      - nkf
       - openssl
       - { name: openssl, state: linked, install_options: force }
-      - pass
-      - pinentry-mac
       - readline
-      - ricty
+      - reattach-to-user-namespace
+      - thefuck
+      - tldr
       - tmux
+      - tree
       - vim
       - wget
+      - yarn
       - yq
       - zsh
     homebrew_cask_packages:
+      - alfred
       - appcleaner
-      - caffeine
+      - docker
       - dropbox
-      - geektool
+      - evernote
+      - firefox-ja
       - google-chrome
+      - google-drive
       - google-japanese-ime
+      - intellij-idea
       - iterm2
       - karabiner-elements
+      - skitch
       - slack
+      - xtrafinder
 
   tasks:
     - name: homebrew をアップデート

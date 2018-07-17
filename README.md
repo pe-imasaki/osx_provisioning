@@ -15,19 +15,3 @@ $ brew install ansible
 ```
 $ ansible-playbook -i hosts -vv osx_base.yml
 ```
-
-## brew 管理外アプリケーション
-- memo
-- rustup
-- docker for mac
-- appcleaner
-- caffeine
-- google-chrome
-- google-japanese-ime
-- iterm2
-- karabiner-elements
-- skitch
-- wireshark
-- Intellij-CE
-- evernote
-- dropbox
