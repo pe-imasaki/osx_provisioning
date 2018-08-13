@@ -11,6 +11,7 @@
       - tldr-pages/tldr
     homebrew_packages:
       - ansible
+      - awscli
       - bash
       - ctags
       - curl
@@ -26,6 +27,7 @@
       - httpie
       - hub
       - jq
+      - mysql
       - nkf
       - openssl
       - { name: openssl, state: linked, install_options: force }
@@ -52,6 +54,7 @@
       - google-japanese-ime
       - intellij-idea
       - iterm2
+      - java
       - karabiner-elements
       - skitch
       - slack
