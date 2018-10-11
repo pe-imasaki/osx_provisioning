@@ -27,12 +27,19 @@
       - httpie
       - hub
       - jq
+      - kafka
+      - kops
+      - kubernetes-cli
       - mysql
       - nkf
       - openssl
       - { name: openssl, state: linked, install_options: force }
+      - pipenv
+      - pstree
       - readline
       - reattach-to-user-namespace
+      - redis
+      - stern
       - thefuck
       - tldr
       - tmux
