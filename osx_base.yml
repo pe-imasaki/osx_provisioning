@@ -39,6 +39,7 @@
       - readline
       - reattach-to-user-namespace
       - redis
+      - sbt
       - stern
       - thefuck
       - tldr
