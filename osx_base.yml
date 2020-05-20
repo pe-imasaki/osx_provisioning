@@ -9,6 +9,7 @@
     homebrew_taps:
       - m3y/drw
       - tldr-pages/tldr
+      - AdoptOpenJDK/openjdk
     homebrew_packages:
       - ansible
       - awscli
@@ -25,6 +26,7 @@
       - httpie
       - jq
       - kubernetes-cli
+      - maven
       - mysql
       - nkf
       - openssl
@@ -42,6 +44,7 @@
       - yq
       - zsh
     homebrew_cask_packages:
+      - adoptopenjdk8
       - appcleaner
       - docker
       - google-japanese-ime
@@ -49,6 +52,8 @@
       - iterm2
       - java
       - karabiner-elements
+      - openvpn-connect
+      - zoomus
 
   tasks:
     - name: homebrew をアップデート
