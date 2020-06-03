@@ -47,12 +47,14 @@
       - adoptopenjdk8
       - appcleaner
       - docker
+      - google-backup-and-sync
       - google-japanese-ime
       - intellij-idea
       - iterm2
       - java
       - karabiner-elements
       - openvpn-connect
+      - visual-studio-code
       - zoomus
 
   tasks:
