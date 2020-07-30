@@ -46,6 +46,7 @@
     homebrew_cask_packages:
       - adoptopenjdk8
       - appcleaner
+      - amethyst
       - docker
       - google-backup-and-sync
       - google-japanese-ime
